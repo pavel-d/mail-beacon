@@ -12,6 +12,14 @@ Specification
 - Programming Protocol: UPDI
 - Power consumption: in microamps range when in sleep
 - Gateway: LILYGO TTGO LoRa32 V2.1
+- Status LED
+
+Wiring
+--
+Reed switch (or any other kind of contact switch) can be connected either to PA4 or PA7 pins. Both pins have interrupts attached and will send a message to the gateway when the value change is detected.
+
+Power LED has a jumper that can be cut to reduce the power consumption.
+
 
 
 Battery monitoring
