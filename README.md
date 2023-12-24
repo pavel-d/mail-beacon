@@ -16,7 +16,9 @@ Specification
 
 Wiring
 --
-Reed switch (or any other kind of contact switch) can be connected either to PA4 or PA7 pins. Both pins have interrupts attached and will send a message to the gateway when the value change is detected.
+Reed switch (or any other kind of contact switch) must be connected either to PA4 or PA7 pins and to the GND. Pins have internal pull-ups enabled and are "active low", so the switch must pull the pin to the ground when circuit is closed. Both pins have interrupts attached, microcontroller will send a message to the gateway when the logic level changes.
+
+TEST button also has an interrupt attached and can be used to test the setup.
 
 Power LED has a jumper that can be cut to reduce the power consumption.
 
