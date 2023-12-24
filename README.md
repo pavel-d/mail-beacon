@@ -29,6 +29,9 @@ The beacon sends the battery voltage (in milivolts) in every LoRa packet, so tha
 Schematic
 --
 ![schematic](images/schematic.png)
+
+Board
+--
 ![pcb](images/pcb_routing.png)
 
 Images
