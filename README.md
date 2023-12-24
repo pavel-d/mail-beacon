@@ -1,6 +1,6 @@
 # Mail Beacon
 
-The Mailbox Beacon is a device that detects when a new letter or package has been delivered to your mailbox using a reed switch. It sends a signal to your LoRa gateway, then the gateway sends a message via WiFi to MQTT server.
+The Mailbox Beacon is a device that detects when a new letter or package has been delivered to your mailbox using a reed switch. It sends a signal to your LoRa gateway, then the gateway sends a message via WiFi to MQTT server. It's designed to integrate with HomeAssistant, but can theoretically work with anything that supports MQTT based sensors.
 
 
 Specification
@@ -10,7 +10,7 @@ Specification
 - Sensor: Reed switch
 - Voltage regulator: SPX3819M5-L-3-3
 - Programming Protocol: UPDI
-- Power consumption: in microamps range when in sleep
+- Power consumption: in microamps range when asleep
 - Gateway: LILYGO TTGO LoRa32 V2.1
 - Status LED
 
